@@ -7,7 +7,7 @@ const id = prompt('id: ');
 
 var options = {
   'method': 'GET',
-  'url': 'http://127.0.0.1:5000/Product/' + id,
+  'url': 'API_url_here/' + id,
   'headers': {
     'Accept': 'application/json',
     'Content-Type': 'application/json'
